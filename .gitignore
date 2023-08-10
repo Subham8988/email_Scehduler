@@ -9,3 +9,6 @@ test/
 
 .env
 env
+
+errorLog.csv
+errorLog
