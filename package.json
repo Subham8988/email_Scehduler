@@ -1,0 +1,25 @@
+{
+  "name": "email_scehduler",
+  "version": "1.0.0",
+  "description": "email scheduler for news laters mothly",
+  "main": "server.js",
+  "scripts": {
+    "test": "synk server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subham8988/email_scheduler.git"
+  },
+  "keywords": [
+    "scheduler",
+    "express",
+    "node",
+    "email"
+  ],
+  "author": "subham kumar  mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subham8988/email_scheduler/issues"
+  },
+  "homepage": "https://github.com/Subham8988/email_scheduler#readme"
+}
