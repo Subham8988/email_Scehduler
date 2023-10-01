@@ -28,7 +28,8 @@ app.use(express.json());
 
 //send email after 1 minute
 cron.schedule("*/1 * * * *", function () {
-    mailService();
+    // mailService();
+    console.log('done');
 });
 
 function mailService() {
@@ -71,7 +72,7 @@ function mailService() {
 
 app.post('/test', async (req, res) => {
     try {
-        mailService();
+        // mailService();
         const body = req.body.body;
         if (body) {
             res.status(200).send("ok")
